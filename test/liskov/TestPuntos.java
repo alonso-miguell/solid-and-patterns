@@ -10,9 +10,11 @@ public class TestPuntos {
 
 	private final Punto2D referencia = new Punto2D(3,5);
 	private final List<Punto2D> puntos_prueba = Arrays.asList(
-			                                         new Punto2D(2,3), 
+			                                         new Punto2D(2,3),
 			                                         new Punto2D(3,5), 
-			                                         new Punto2D(4,3)
+			                                         new Punto2D(4,3),
+			new Punto3D(3, 5, 0)
+
 			                                         );
 	
 	
